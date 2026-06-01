@@ -1,2 +1,2 @@
-name=str(input('Настя:'))
+name=str(input('Имя: '))
 print(f'Здравствуйте,{name}!')

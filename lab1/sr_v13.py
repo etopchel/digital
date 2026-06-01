@@ -1,27 +1,45 @@
-from math import cos, pi 
-a=int (10+13) 
-b=int (30+13)
-a=a+13
-print (f"a={a}")
-c= a**-3
-print (f"c={c}")
-print (f"a={a}, b={b}, c={c}")
-print (type (f"a={a}, b={b}, c={c}"))
+import math
+
+N = 13
+
+a = int(10 + N) 
+b = int(30 + N)
+a = a + N
+c = a ** (N - 5)
+print (f"{a=}, {b=}, {c=}")
+
+print (f"{a=}")
+print(f"{type(a)=}")
 a=10.5
-print (f"a={a}")
-b=b-6.8
-print (f"b={b}")
-print (f"a={a}, b={b}, c={c}")
-print (abs (b))
-print (b/a)
-e=float (b%c)
-round (e)
-print (e)
-print (max (a,b,c))
-print (min (a,b,c))
-a=13
-b=13+10
-c=13+20
-print(oct(a))
-print(oct(b))
-print(oct(c))
+print (f"{a=}")
+print(f"{type(a)=}")
+
+b = b - 6.8
+print (f"{a=}, {b=}, {c=}")
+
+print (f"abs(b) = {abs(b)}")
+
+print (f"b // a = {b//a}")
+
+e = round(float(b % c))
+print(f"float(b % c) = {e}")
+
+
+print(f"max(a, b, c) = {max(a,b,c)}")
+print(f"min(a, b, c) = {min(a,b,c)}")
+
+
+a=N
+b=N+10
+c=N+20
+
+print(f"a = {oct(a)}")
+print(f"b = {oct(b)}")
+print(f"c = {oct(c)}")
+
+
+x = float(input('x: '))
+f = math.tan(math.sqrt(5 * x)) + x / 5
+print(f'f(x) = ', f)
+
+

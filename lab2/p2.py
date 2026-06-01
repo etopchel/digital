@@ -1,4 +1,4 @@
-s= input ("Введите строку: ")
+s = input("Введите строку: ")
 print (len (s) )
 print (s * 3)
 print (s [0])

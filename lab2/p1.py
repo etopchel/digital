@@ -1,4 +1,4 @@
-a=input (str("Введите имя:") )
-b=input (str("Введите фамилию:") )
-с=input (str("Введите отчество:"))
-print (f" {a [0]}. {b[0]}. {c[0]}")
+first_name = input (str("Введите имя:") )
+last_name = input (str("Введите фамилию:") )
+patronymic = input (str("Введите отчество:"))
+print (f"{last_name} {first_name[0]}. {patronymic[0]}.")
